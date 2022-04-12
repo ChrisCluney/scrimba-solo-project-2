@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3{
+    font-size: 10.24px;
+    font-weight: 400;
+    
+    margin: 0;
+}
+.header--box{
+    display: flex;
+    background-color: #f55a5a;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 55px;
+    
+}
+
+p{
+    font-size: 10.24px;
+    font-weight: 400;
+}
+.logo {
+    width: 24px;
+    height: 24px;
+}
+
+
+.sec--entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px ;
+}
+
+.pic--sample {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    /* padding-right: 1em; */
+    display: block
+}
+.info{
+    padding-left: 1em;
+}
+.location--section{
+    display: flex;
+    align-content: center;
+    padding-top: 5px;
+    
+    
+}
+.gray {
+    color: #918E9B;
+}
+.bold {
+    font-weight: bold;
+}
+
+.link{
+    font-size: 10.24px;
+    color: #918E9B;
+    padding-left: 1em;
+}
+a:link {
+    color: #918E9B;
+}
+a:visited {
+    color: #918E9B;
+}
+.name-location {
+    letter-spacing: 17%;
+    font-weight: 400px;
+    padding-left: .5em;
+}
+
+.location--mark{
+    width: 7px;
+    height: 9.55px;
+    display: block
+    
+    
+}
